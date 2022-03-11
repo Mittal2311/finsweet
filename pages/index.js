@@ -10,6 +10,9 @@ import Relevent from '../component/Relevent'
 import Slidebar from '../component/Sidebar'
 import Welcome from "../component/Welcome";
 import Watchlist from "../component/Watchlist";
+import Upcoming from "../component/Upcoming";
+import Cta from "../component/Cta";
+import Blogpost from "../component/Blogpost";
 
 
 export default function Home() {
@@ -24,6 +27,9 @@ export default function Home() {
    <Relevent />
    <Welcome />
    <Watchlist />
+   <Upcoming />
+   <Cta />
+   <Blogpost />
    <Footer />
   
    </>

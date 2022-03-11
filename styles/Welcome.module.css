@@ -116,4 +116,12 @@
     border: none;
     background: transparent;
 }
-    
+.imagwelcome{
+    width: auto;
+  text-align-last: center;
+  margin-top: -30px;
+}
+.imagewelcome2 {
+    width: 100%;
+    margin-top: 14%;
+}

@@ -24,7 +24,7 @@ const Header = (obj) => {
               <NavbarCollapse id="responsive-navbar-nav" className={headerstyle.header_navbar}>
                 <Nav className="header_nav">
                   <Nav.Link href="" className={headerstyle.navlink}>Home</Nav.Link>
-                  <Nav.Link href="" className={headerstyle.navlink}>About Us</Nav.Link>
+                  <Nav.Link href="Aboutus" className={headerstyle.navlink}>About Us</Nav.Link>
                   <Nav.Link href="" className={headerstyle.navlink}>Sermon</Nav.Link>
                   <Nav.Link href="" className={headerstyle.navlink}>Blog</Nav.Link>
                 </Nav>

@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import bannerstyle from "../styles/Banner.module.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 const Banner = () => {
   return (
@@ -12,6 +14,7 @@ const Banner = () => {
           <Row>
             <Col xl={6} lg={6} md={6}>
               <div className={bannerstyle.banner_conte}>
+              <AnimationOnScroll animateIn="animate__fadeInDown"> 
                 <div className="banner_heading_cont">
                   <h5 className={bannerstyle.banner_title}>
                     {" "}
@@ -28,6 +31,7 @@ const Banner = () => {
                     do.
                   </p>
                 </div>
+                </AnimationOnScroll>
               </div>
             </Col>
           </Row>

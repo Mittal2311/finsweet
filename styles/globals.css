@@ -19,10 +19,7 @@ a {
   margin: 0 auto;
 }
 
-
 .my-masonry-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /* margin-left: -30px; */
   width: auto;
@@ -35,3 +32,5 @@ a {
   /* background: yellow; */
   margin-bottom: 20px;
 }
+
+
