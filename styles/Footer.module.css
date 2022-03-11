@@ -4,7 +4,6 @@
     url("../public/font/RobotoCondensed-Regular.ttf") format("truetype");
   font-weight: normal;
 }
-
 .footer_section {
   display: inline-block;
   width: 100%;
@@ -72,6 +71,10 @@
   outline: none !important;
   position: relative !important;
   padding: 20px 20px !important;
+}
+.mailinput input:focus , .mailinput:active{
+  box-shadow: none !important;
+  outline: none;
 }
 .mailinput::placeholder {
   font-family: Roboto Condensed;

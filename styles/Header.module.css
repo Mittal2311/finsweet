@@ -4,11 +4,13 @@
     url("../public/font/RobotoCondensed-Regular.ttf") format("truetype");
   font-weight: normal;
 }
-
 .header_section {
   background: #0d0d0d;
   display: inline-block;
   width: 100%;
+  padding: 5px 0px;
+  /* position: fixed;
+  z-index: 1; */
 }
 .navlink {
   font-family: Roboto Condensed;
@@ -40,7 +42,7 @@
   position: relative;
 }
 .divider {
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   position: absolute;
   top: 0%;
   left: 11%;
@@ -69,6 +71,15 @@
 @media only screen and (max-width: 992px) {
   .header_navbar {
     display: inline-block;
+    /* position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    background-color: red;
+    width: 200px;
+    height: 900px;
+    z-index: 1; */
+
   }
   .navlink {
     text-align: start;
@@ -78,6 +89,7 @@
     font-size: 14px;
     padding: 20px 20px;
   }
+
 }
 @media only screen and (max-width: 768px) {
 }
@@ -86,3 +98,8 @@
 @media only screen and (max-width: 567px) {
 }
 /* Responsive end  */
+
+
+
+
+

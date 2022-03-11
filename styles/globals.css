@@ -18,3 +18,20 @@ a {
   max-width: 1500px !important;
   margin: 0 auto;
 }
+
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* margin-left: -30px; */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 20px;
+  background-clip: padding-box;
+}
+.my-masonry-grid_column > div {
+  /* background: yellow; */
+  margin-bottom: 20px;
+}
