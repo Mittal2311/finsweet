@@ -32,5 +32,15 @@ a {
   /* background: yellow; */
   margin-bottom: 20px;
 }
+.form-control:focus{
+  box-shadow: none !important;
+}
 
-
+@media only screen and (max-width: 1199px) {}
+@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 567px) {
+  .my-masonry-grid_column{padding-left: 0px;}
+ 
+}

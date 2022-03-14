@@ -72,9 +72,8 @@
   position: relative !important;
   padding: 20px 20px !important;
 }
-.mailinput input:focus , .mailinput:active{
+.mailinput input:focus{
   box-shadow: none !important;
-  outline: none;
 }
 .mailinput::placeholder {
   font-family: Roboto Condensed;

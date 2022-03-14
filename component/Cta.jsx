@@ -5,10 +5,10 @@ const Cta = () => {
   return (
     <>
       <div className={ctastyle.cta_section}>
-        <img src="/image/cta.svg" className={ctastyle.ctaimg} />
+        <img src="/image/Background.png" className={ctastyle.ctaimg} />
         <Container>
           <Row>
-            <Col xl={6} lg={6} className={ctastyle.cta_col}>
+            <Col xl={6} lg={6} md={6} sm={6} xs={6} className={ctastyle.cta_col}>
               <div className={ctastyle.cta_inner}>
                 <div className={ctastyle.inner_heading_img}>
                   <h2 className={ctastyle.inner_heading}>

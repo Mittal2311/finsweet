@@ -19,7 +19,8 @@
   right: auto;
   bottom: auto;
   display: inline-block;
-  margin: 100px 0;
+  /* margin: 100px 0; */
+  margin: 10% 0;
 }
 .banner_title {
   font-family: "Roboto Condensed";
@@ -77,11 +78,10 @@
   display: inline-block;
   margin-right: 15px;
 }
-
 /* Responsive start  */
 
 @media only screen and (max-width: 1199px) {
-    .banner_conte{margin: 50px 0px; left: 0%; margin-left: 10px;}
+    .banner_conte{margin: 6% 0; left: 0%; margin-left: 10px;}
 }
 @media only screen and (max-width: 992px) {
   .banner_heading {
@@ -98,18 +98,20 @@
     font-size: 15px;
     height: 49px;
   }
+  .banner_conte{margin: 8% 0; left: 0%; margin-left: 10px;}
 }
 @media only screen and (max-width: 768px) {
   .banner_heading {
     font-size: 24px;
     line-height: 31px;
   }
+  .banner_conte{margin: 6% 0; left: 0%; margin-left: 10px;}
 }
 @media only screen and (max-width: 767px) {
   .banner_heading {margin: 10px 0 !important;font-size: 22px;
     line-height: 27px;}
     .learnmore_btn {padding: 15px 12px;height: 44px;}
-  .banner_conte{margin: 27px 0px; left: 2%;}
+    .banner_conte{margin: 7% 0; left: 0%; margin-left: 10px;}
 }
 @media only screen and (max-width: 567px) {
   .banner_heading{font-size: 17px;line-height: 10px;}
@@ -119,7 +121,7 @@
     line-height: 19px;
   }
   .banner_title{font-size: 14px;}
-  .banner_conte{margin: 27px 0px; left: 3%;}
+  .banner_conte{margin: 10% 0; left: 0%; margin-left: 10px;}
 }
 @media only screen and (max-width: 420px) {
   .banner_heading{font-size: 14px;}
@@ -128,6 +130,7 @@
     height: 25px;padding: 5px 12px;
     font-size: 11px;
   }
+  .banner_conte{margin: 4% 0; left: 0%; margin-left: 10px;}
 }
 
 /* Responsive end  */

@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col ,Button,Image } from "react-bootstrap";
 import welstyle from "../styles/Welcome.module.css";
 import Lovejson from "../json/love.json";
 import Masonry from "react-masonry-css";
-import Love from "./Love";
-import { lab } from "color-convert";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 const Welcome = () => {
   const [welcomeData] = useState(Lovejson);
+  
   const breakpoints = {
     default: 3,
     1199: 3,
@@ -16,8 +17,10 @@ const Welcome = () => {
   };
   return (
     <>
-      <div className={welstyle.love_section}>
-        <div className={welstyle.love_main_heading}>
+   <div className={welstyle.love_section}>
+      <Container>
+      <AnimationOnScroll animateIn="animate__bounceIn"> 
+      <div className={welstyle.love_main_heading}>
           <label className={welstyle.love_title}>sub-headline</label>
           <h2 className={welstyle.love_heading}> love and compassion</h2>
           <p className={welstyle.parag}>
@@ -30,42 +33,49 @@ const Welcome = () => {
           </p>
           <button className={welstyle.readmore_btn}> Read more</button>
         </div>
-        <Container>
-          <Row>
-            <Masonry
-              breakpointCols={breakpoints}
-              className="my-masonry-grid"
-              columnClassName="my-masonry-grid_column"
+        </AnimationOnScroll>
+        <Row>
+        <AnimationOnScroll animateIn="animate__fadeInDown"> 
+          <Masonry
+            breakpointCols={breakpoints}
+            className="my-masonry-grid"
+            columnClassName="my-masonry-grid_column"
+          >
+            <Col
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className={welstyle.Subheadline_col1}
             >
-              <Col
-                xl={4}
-                lg={4}
-                md={6}
-                sm={6}
-                xs={12}
-                className={welstyle.imagwelcome}
-              >
-                <img src="/image/loveimg1.svg" className={welstyle.loveimg} />
-              </Col>
-              <Col
-                xl={4}
-                lg={4}
-                md={6}
-                sm={6}
-                xs={12}
-                className={welstyle.imagewelcome2}
-              >
-                <img src="/image/loveimg2.svg" className={welstyle.loveimg2} />
-              </Col>
-              <Col xl={4} lg={4} md={6} sm={6} xs={12}>
-                <img src="/image/loveimg3.svg" className={welstyle.loveimg3} />
-              </Col>
-
-              {/* {welcomeData.map((item) => (
-                <Love data={item} />
-              ))} */}
-            </Masonry>
-            <div className={welstyle.vision}>
+              <Image src="/image/loveimg1.svg" className={welstyle.Subheadline_img} />
+            </Col>
+            <Col
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className={welstyle.Subheadline_col2}
+            >
+              <Image src="/image/loveimg2.svg" className={welstyle.Subheadline_img1} />
+            </Col>
+            <Col
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className={welstyle.Subheadline_col3}
+            >
+              <Image src="/image/loveimg3.svg" className={welstyle.Subheadline_img} />
+            </Col>
+          </Masonry>
+          </AnimationOnScroll>
+        </Row>
+        <AnimationOnScroll animateIn="animate__fadeInLeft"> 
+         <div className={welstyle.vision}>
               <label className={welstyle.vision_title}>
                 our mission & vision
               </label>
@@ -77,9 +87,9 @@ const Welcome = () => {
               <button className={welstyle.read_btn}>Read More</button>
               <img src="/image/rightarrow.svg" />
             </div>
-          </Row>
-        </Container>
-      </div>
+        </AnimationOnScroll>
+      </Container>
+    </div>
     </>
   );
 };

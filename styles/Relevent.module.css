@@ -35,7 +35,7 @@
     padding: 80px;
     margin-top: 50px;
     border-bottom: 10px solid #FFD2A4;
-    max-width: 411px;   
+    /* max-width: 411px;    */
     max-height: 380px;
 }
 .about_parg {
