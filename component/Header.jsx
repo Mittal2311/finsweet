@@ -4,8 +4,8 @@ import headerstyle from "../styles/Header.module.css";
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 
-const Header = (obj) => {
-
+const Header = (props) => {
+const {load}=props
   const menuclick = () => {
     obj.setShow(true);
     console.log(obj.show)
@@ -23,8 +23,8 @@ const Header = (obj) => {
               <NavbarToggle className={headerstyle.menu_icon}  onClick={menuclick}/>
               <NavbarCollapse id="responsive-navbar-nav" className={headerstyle.header_navbar}>
                 <Nav className="header_nav">
-                  <Nav.Link href="" className={headerstyle.navlink}>Home</Nav.Link>
-                  <Nav.Link href="Aboutus" className={headerstyle.navlink}>About Us</Nav.Link>
+                  <Nav.Link href="Home" className={headerstyle.navlink}>Home</Nav.Link>
+                  <Nav.Link href="" onClick={props.load} className={headerstyle.navlink}>About Us</Nav.Link>
                   <Nav.Link href="" className={headerstyle.navlink}>Sermon</Nav.Link>
                   <Nav.Link href="" className={headerstyle.navlink}>Blog</Nav.Link>
                 </Nav>

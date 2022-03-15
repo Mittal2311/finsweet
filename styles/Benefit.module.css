@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: local("Roboto Condensed"),
+      url("../public/font/RobotoCondensed-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+.benefit_section {
+    padding: 0 0 100px;
+    display: inline-block;
+    width: 100%;
+}
+.benefit_title {
+    text-align: center;
+}
+.benefit {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.benefit_heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    max-width: 432px;
+    margin: 15px auto;
+}
+/* .benefitimg {
+    width: 100%;
+} */
+.content_heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+.content_parg {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 500px;
+    color: #161722;
+    opacity: 0.78;
+}
+.bebefent_content {
+    /* padding: 100px; */
+    display: flex;
+    flex-direction: column;
+}
+.left_right_content {
+    padding: 40px 0;
+    display: flex;
+    align-self: center;
+}

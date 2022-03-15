@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "benefitheading": "find fulfillment and joy",
+      "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+      "benefitimg":"/image/rightimg1.svg"
+    },
+    {
+        "id": 2,
+        "benefitheading": "find fulfillment and joy",
+        "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+        "benefitimg":"/image/leftimg1.svg"
+      },
+      {
+        "id": 3,
+        "benefitheading": "find fulfillment and joy",
+        "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+        "benefitimg":"/image/rightimg2.svg"
+      },
+      {
+        "id": 4,
+        "benefitheading": "find fulfillment and joy",
+        "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+        "benefitimg":"/image/leftimg2.svg"
+      }
+  ]
+  

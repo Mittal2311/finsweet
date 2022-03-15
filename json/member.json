@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "teamimg": "/image/teamimg1.svg",
+      "teamname": "Kim Bowen",
+      "teamtitle":"Pastor, Church",
+      "facebook ":"/image/facebookicon.svg",
+      "tweeter":"/image/tweetericon.svg",
+      "insta":"/image/instaicon.svg"
+    },
+    {
+        "id": 2,
+        "teamimg": "/image/teamimg2.svg",
+        "teamname": "Danielle Watkins",
+        "teamtitle":"Pastor, Church",
+        "facebook ":"/image/facebookicon.svg",
+        "tweeter":"/image/tweetericon.svg",
+        "insta":"/image/instaicon.svg"
+      },
+  
+      {
+        "id": 3,
+        "teamimg": "/image/teamimg3.svg",
+        "teamname": "Naomi Craig",
+        "teamtitle":"Pastor, Church",
+        "facebook ":"/image/facebookicon.svg",
+        "tweeter":"/image/tweetericon.svg",
+        "insta":"/image/instaicon.svg"
+      },
+      {
+        "id": 4,
+        "teamimg": "/image/teamimg4.svg",
+        "teamname": "Santos Payne",
+        "teamtitle":"Pastor, Church",
+        "facebook ":"/image/facebookicon.svg",
+        "tweeter":"/image/tweetericon.svg",
+        "insta":"/image/instaicon.svg"
+      }
+  ]
+  
