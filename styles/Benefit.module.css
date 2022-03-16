@@ -6,12 +6,15 @@
     font-weight: normal;
 }
 .benefit_section {
-    padding: 0 0 100px;
+    padding: 0 0 100px; 
     display: inline-block;
-    width: 100%;
+     width: 100%;
 }
 .benefit_title {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .benefit {
     font-family: 'Roboto Condensed';
@@ -19,7 +22,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
 }
 .benefit_heading {
     font-family: 'Roboto Condensed';
@@ -35,6 +37,7 @@
 }
 /* .benefitimg {
     width: 100%;
+    height: 320px;
 } */
 .content_heading {
     font-family: 'Roboto Condensed';
@@ -50,18 +53,44 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    max-width: 500px;
+    /* line-height: 24px; */
+    max-width: 550px;
     color: #161722;
     opacity: 0.78;
 }
-.bebefent_content {
-    /* padding: 100px; */
+.left_right_content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
 }
-.left_right_content {
-    padding: 40px 0;
-    display: flex;
-    align-self: center;
+.benifitContainer{
+    margin: 0px 100px;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 992px) {
+    .benefit_section{ padding: 0 0 50px; }
+    .benefit_heading{font-size: 40px; line-height: 50px; max-width: 412px;}
+    .content_heading {font-size: 25px;}
+    .benifitContainer{ margin: 0px 50px;}
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+    .benefit_section{ padding: 0 0 30px;}
+    .benefit_heading{font-size: 30px;
+        line-height: 38px;
+        max-width: 306px;margin: 10px auto;}
+        .left_right_content{margin-top: 20px;}
+        .benifitContainer{ margin: 0px 30px;}
+}
+@media only screen and (max-width: 567px) {
+    .content_heading {font-size: 20px;}
+    .content_parg{font-size: 15;}
+    .benefit_heading{font-size: 20px; font-size: 20px;
+    line-height: 30px;
+    max-width: 200px;}
 }

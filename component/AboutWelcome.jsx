@@ -7,12 +7,12 @@ import "animate.css/animate.min.css";
 import welcomestyle from "../styles/Aboutwelcome.module.css";
 
 const AboutWelcome = () => {
-  // const breakpoints = {
-  //   default: 3,
-  //   1199: 3,
-  //   700: 2,
-  //   500: 1,
-  // };
+  const breakpoints = {
+    default: 3,
+    1199: 3,
+    700: 2,
+    500: 1,
+  };
   return (
     <>
       <div className={welcomestyle.about_welcome}>
@@ -34,37 +34,56 @@ const AboutWelcome = () => {
           </AnimationOnScroll>
           <Row>
             <AnimationOnScroll animateIn="animate__fadeInDown">
-              {/* <Masonry
+              <Masonry
                 breakpointCols={breakpoints}
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
-              > */}
-              <div className={welcomestyle.welcome_love}>
-              <figure>
+              >
+                <Col
+                  xl={4}
+                  lg={4}
+                  md={6}
+                  sm={12}
+                  xs={12}
+                  className={welstyle.Subheadline_col1}
+                >
                   <Image
                     src="/image/loveimg1.svg"
-                    className="loveimg1"
+                    className={welcomestyle.loveimg1}
                   />
-                  </figure>
-                  <figure class={welcomestyle.landscape }>
+                </Col>
+                <Col
+                  xl={4}
+                  lg={4}
+                  md={6}
+                  sm={12}
+                  xs={12}
+                  className={welstyle.Subheadline_col2}
+                >
                   <Image
                     src="/image/loveimg2.svg"
-                    className="loveimg2"
+                    className={welcomestyle.loveimg2}
                   />
-              </figure>
-              <figure>
+                </Col>
+                <Col
+                  xl={4}
+                  lg={4}
+                  md={6}
+                  sm={12}
+                  xs={12}
+                  className={welstyle.Subheadline_col3}
+                >
                   <Image
                     src="/image/loveimg3.svg"
-                    className="loveimg3"
+                    className={welcomestyle.loveimg3}
                   />
-              </figure>
-              </div>
-              {/* </Masonry> */}
+                </Col>
+              </Masonry>
             </AnimationOnScroll>
           </Row>
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <div className={welcomestyle.bottom_content}>
-              <Col xl={4} lg={4}>
+              <Col xl={4} lg={4} md={4} sm={12} xs={12}>
                 <label className={welcomestyle.bottom_title}>
                   OUR MISSIOn & Vision
                 </label>
@@ -79,7 +98,7 @@ const AboutWelcome = () => {
                   irure dolor in reprehenderit in voluptate velit esse cillum.
                 </p>
               </Col>
-              <Col xl={4} lg={4}>
+              <Col xl={4} lg={4} md={4} sm={12} xs={12}>
                 <label className={welcomestyle.bottom_title}>
                   OUR MISSIOn & Vision
                 </label>

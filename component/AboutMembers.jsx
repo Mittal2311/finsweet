@@ -20,7 +20,7 @@ const AboutMember = () => {
           {teamData.map((item) => (
             <Col xl={3} lg={3} md={6} sm={6} xs={12}>
               <div className={teamstyle.team_content}>
-                <img src={item.teamimg} />
+                <img src={item.teamimg} className={teamstyle.teaming} />
                 <div className={teamstyle.team_info}>
                   <h5 className={teamstyle.info_heading}>{item.teamname}</h5>
                   <p className={teamstyle.info_parag}>{item.teamtitle}</p>

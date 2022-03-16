@@ -22,6 +22,7 @@
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
+    margin: 10px 0 !important;
 }
 .bottom_heading {
     font-family: 'Roboto Condensed';
@@ -49,4 +50,34 @@
 }
 .welcome_love {
     display: flex;
+}
+.loveimg2 {
+    width: 100%;
+}
+.loveimg1 {
+    align-self: center;
+    justify-self: end;
+    margin-top: 30%;
+}
+.loveimg3 {
+    align-self: center;
+    justify-self: start;
+    margin-top: 30%;
+}
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 992px) {
+    .bottom_heading{font-size: 27px;
+        line-height: 30px;}
+    .bottom_prag{font-size: 15px;}
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+    .bottom_heading{font-size: 20px;}
+    .bottom_content {display: table; margin: 0 auto; text-align: center;}
+}
+@media only screen and (max-width: 567px) {
+    .bottom_heading{font-size: 15px;}
 }

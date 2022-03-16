@@ -7,21 +7,21 @@
     },
     {
         "id": 2,
-        "benefitheading": "find fulfillment and joy",
-        "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
-        "benefitimg":"/image/leftimg1.svg"
+        "benefitimg":"/image/leftimg1.svg",
+        "benefitheading": "shared values",
+        "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit."
       },
       {
         "id": 3,
-        "benefitheading": "find fulfillment and joy",
+        "benefitheading": "charity events",
         "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
         "benefitimg":"/image/rightimg2.svg"
       },
       {
         "id": 4,
-        "benefitheading": "find fulfillment and joy",
-        "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
-        "benefitimg":"/image/leftimg2.svg"
+        "benefitimg":"/image/leftimg2.svg",
+        "benefitheading": "All are welcome",
+        "benefitdescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit."
       }
   ]
   
