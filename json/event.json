@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "eventtitle": "Upcoming Event",
+      "eventheading": "100 random acts of kindness",
+      "eventdescription" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "clock":"/image/clock.svg",
+      "location":"/image/location.svg"
+    },
+    {
+        "id": 2,
+        "eventtitle": "Upcoming Event",
+        "eventheading": "Faith is a process, not a destination",
+        "eventdescription" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "clock":"/image/clock.svg",
+        "location":"/image/location.svg"
+      },
+      {
+        "id": 3,
+        "eventtitle": "Upcoming Event",
+        "eventheading": "there is nothing impossible",
+        "eventdescription" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "clock":"/image/clock.svg",
+        "location":"/image/location.svg"
+      },
+      {
+        "id": 4,
+        "eventtitle": "Upcoming Event",
+        "eventheading": "WATCH AND LISTEN TO OUR SERMONS",
+        "eventdescription" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "clock":"/image/clock.svg",
+        "location":"/image/location.svg"
+      }
+  ]
+  

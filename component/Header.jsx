@@ -24,9 +24,9 @@ const {load}=props
               <NavbarCollapse id="responsive-navbar-nav" className={headerstyle.header_navbar}>
                 <Nav className="header_nav">
                   <Nav.Link href="Home" className={headerstyle.navlink}>Home</Nav.Link>
-                  <Nav.Link href="" onClick={props.load} className={headerstyle.navlink}>About Us</Nav.Link>
-                  <Nav.Link href="" className={headerstyle.navlink}>Sermon</Nav.Link>
-                  <Nav.Link href="" className={headerstyle.navlink}>Blog</Nav.Link>
+                  <Nav.Link href="Aboutus" onClick={props.load} className={headerstyle.navlink}>About Us</Nav.Link>
+                  <Nav.Link href="Semons" className={headerstyle.navlink}>Sermon</Nav.Link>
+                  <Nav.Link href="Blog" className={headerstyle.navlink}>Blog</Nav.Link>
                 </Nav>
                 <button className={headerstyle.contact_btn}> Contact us</button>
               </NavbarCollapse>

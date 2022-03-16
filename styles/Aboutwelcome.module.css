@@ -66,8 +66,10 @@
 }
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {
+    .loveimg1,.loveimg3{width: 100%;}
 }
 @media only screen and (max-width: 992px) {
+    .about_welcome{ padding: 50px 0;}
     .bottom_heading{font-size: 27px;
         line-height: 30px;}
     .bottom_prag{font-size: 15px;}
@@ -75,9 +77,11 @@
 @media only screen and (max-width: 768px) {
 }
 @media only screen and (max-width: 767px) {
+    .about_welcome{ padding: 30px 0;}
     .bottom_heading{font-size: 20px;}
     .bottom_content {display: table; margin: 0 auto; text-align: center;}
 }
 @media only screen and (max-width: 567px) {
     .bottom_heading{font-size: 15px;}
+    .loveimg1,.loveimg3{margin-top: 0%;}
 }

@@ -11,7 +11,7 @@ const AboutWelcome = () => {
     default: 3,
     1199: 3,
     700: 2,
-    500: 1,
+    567: 1,
   };
   return (
     <>
@@ -83,7 +83,7 @@ const AboutWelcome = () => {
           </Row>
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <div className={welcomestyle.bottom_content}>
-              <Col xl={4} lg={4} md={4} sm={12} xs={12}>
+              <Col xl={4} lg={4} md={6} sm={12} xs={12}>
                 <label className={welcomestyle.bottom_title}>
                   OUR MISSIOn & Vision
                 </label>
@@ -98,7 +98,7 @@ const AboutWelcome = () => {
                   irure dolor in reprehenderit in voluptate velit esse cillum.
                 </p>
               </Col>
-              <Col xl={4} lg={4} md={4} sm={12} xs={12}>
+              <Col xl={4} lg={4} md={6} sm={12} xs={12}>
                 <label className={welcomestyle.bottom_title}>
                   OUR MISSIOn & Vision
                 </label>

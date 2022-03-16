@@ -67,13 +67,16 @@ const Benefit = () => {
               } else if (k % 2 == 1) {
                 return (
                   <>
+                  <div className={benefitstyle.left_cont}>
+
+                 
                     <Col
                       xl={6}
                       lg={6}
                       md={6}
                       sm={12}
                       xs={12}
-                      className={benefitstyle.left_right_content}
+                      className={benefitstyle.left_right_content1}
                     >
                       {/* <AnimationOnScroll animateIn="animate__fadeInDown">  */}
                       <img
@@ -88,7 +91,7 @@ const Benefit = () => {
                       md={6}
                       sm={12}
                       xs={12}
-                      className={benefitstyle.left_right_content}
+                      className={benefitstyle.left_right_content1}
                     >
                      {/* <AnimationOnScroll animateIn="animate__fadeInUp">  */}
                       <div className={benefitstyle.bebefent_content}>
@@ -101,6 +104,7 @@ const Benefit = () => {
                       </div>
                       {/* </AnimationOnScroll> */}
                     </Col>
+                    </div>
                   </>
                 );
               }
