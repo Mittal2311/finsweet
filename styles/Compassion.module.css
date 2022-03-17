@@ -1,0 +1,230 @@
+.compassion_section {
+  padding: 100px 0;
+  display: inline-block;
+  width: 100%;
+}
+.blogpost_img {
+  margin: 20px 0;
+  width: 100%;
+}
+.blogpost_title {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(109.61deg, #a54e2b -53.83%, #dc9853 62.61%);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.blogpost_heading {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin: 15px 0 !important;
+}
+.blogpost_date,
+.blogpost_author {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  margin: 0 5px;
+}
+.post_body {
+  margin: 0 366px;
+}
+.body_cont {
+  padding: 30px;
+}
+.body_cont1 {
+  padding: 25px 0;
+}
+.postbody_heading {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+.qoute {
+  border-left: 3px solid #ffd2a4;
+  height: 117px;
+  margin: 15px 0;
+}
+.qoute_parg {
+  max-width: 740px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #161722;
+  opacity: 0.78;
+  margin-left: 20px;
+}
+.postbody_parg {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+  max-width: 768px;
+}
+.bulletpoints {
+  padding: 15px 0;
+}
+.bulletpoint_parg {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+  margin: 10px 0 !important;
+}
+.bulletpoint_parg:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #494a53;
+  display: inline-block;
+  margin-right: 11px;
+  border-radius: 15px;
+}
+.bodyimg {
+  width: 100%;
+}
+.h4_heading {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+/* Responsive start  */
+@media only screen and (max-width: 1200px) {
+  .post_body {
+    margin: 0 200px;
+  }
+  .postbody_heading {
+    font-size: 37px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 992px) {
+  .compassion_section {
+    padding: 50px 0;
+  }
+  .postbody_heading {
+    font-size: 30px;
+  }
+  .post_body {
+    margin: 0 100px;
+  }
+  .qoute_parg {
+    font-size: 22px;
+    line-height: 131%;
+  }
+  .blogpost_heading {
+    font-size: 30px;
+    line-height: 28px;
+  }
+  .h4_heading {
+    font-size: 27px;
+    line-height: 28px;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+  .compassion_section {
+    padding: 30px 0;
+  }
+  .postbody_heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .post_body {
+    padding: 15px;
+  }
+  .post_body {
+    margin: 0 50px;
+  }
+  .qoute_parg {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .qoute {
+    height: 80px;
+    margin: 26px 0;
+  }
+  .h4_heading {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .body_cont {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .event_parag {
+    max-width: 100%;
+    margin: 10px 0 !important;
+  }
+  .post_body {
+    margin: 0 0px;
+  }
+  .postbody_heading {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .qoute_parg {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  .qoute {
+    height: 64px;
+  }
+  .postbody_parg {
+    font-size: 15px;
+  }
+  .bulletpoint_parg {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 5px 0 !important;
+  }
+  .blogpost_heading {
+    font-size: 25px;
+    line-height: 19px;
+    margin: 11px 0 !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .h4_heading {
+    font-size: 17px;
+  }
+}
+/* Responsive end  */

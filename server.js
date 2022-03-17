@@ -24,7 +24,12 @@ app.prepare().then(() => {
   server.get("/blogpost", (req, res) => {
     app.render(req, res, "/BlogPost");
   });
- 
+  server.get("/semonsevent", (req, res) => {
+    app.render(req, res, "/SemonsEvent");
+  });
+  server.get("/contact", (req, res) => {
+    app.render(req, res, "/Contact");
+  });
   // server.get('/CategoryList/:subcategory',(req,res)=>{
   //   const subcategory = parseInt(req.params.subcategory.split('-').pop());
   //   const queryParams = {
