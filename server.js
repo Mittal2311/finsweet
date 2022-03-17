@@ -13,7 +13,17 @@ app.prepare().then(() => {
   server.get("/aboutus", (req, res) => {
     app.render(req, res, "/Aboutus");
   });
+  server.get("/semons", (req, res) => {
+    app.render(req, res, "/Semons");
+  });
 
+  server.get("/blog", (req, res) => {
+    app.render(req, res, "/Blog");
+  });
+
+  server.get("/blogpost", (req, res) => {
+    app.render(req, res, "/BlogPost");
+  });
  
   // server.get('/CategoryList/:subcategory',(req,res)=>{
   //   const subcategory = parseInt(req.params.subcategory.split('-').pop());

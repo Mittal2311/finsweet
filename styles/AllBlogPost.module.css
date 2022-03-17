@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Roboto Condensed";
+    src: local("Roboto Condensed"),
+      url("../public/font/RobotoCondensed-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+  .all_blog_post_section {
+    padding: 50px 0 100px;
+    display: inline-block;
+    width: 100%;
+}
+
+.all_post_heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+    margin: 15px 0 !important;
+}
+.blogpost_title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.post_content {
+    background: #FFFFFF;
+    padding: 40px 32px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.post_content:hover{
+    box-shadow: inset 0 -15px 0 #ffd0a0;
+}
+
+.blogpost_heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+    margin: 15px 0 !important;
+    max-width: 218px;
+}
+.blogpost_parag {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+    margin: 15px 0 !important;
+}
+.post_author_date {
+    display: grid;
+    padding: 20px 0;
+}
+.allpost_author {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #161722;
+    margin: 5px 0px;
+}
+.allpost_date {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    
+}
+@media only screen and (max-width: 992px) {
+    .all_post_heading{font-size: 35px;}
+    .blogpost_heading {font-size: 21px;margin: 10px 0 !important;}
+    .all_blog_post_section {padding: 50px 0 50px;}
+
+ 
+}
+@media only screen and (max-width: 768px) {
+ 
+}
+@media only screen and (max-width: 767px) {
+    .all_post_heading{font-size: 28px;line-height: 35px;}
+    .all_blog_post_section {padding: 30px 0 30px;}
+    .post_content{margin-top: 10px;}
+  .main_post{display: inline-block;}
+  .blogpost_parag{margin: 10px 0 !important;}
+ 
+}
+@media only screen and (max-width: 567px) {
+    .blogpost_heading{max-width: 100%;}
+}
+/* Responsive end  */

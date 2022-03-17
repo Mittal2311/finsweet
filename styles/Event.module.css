@@ -110,9 +110,11 @@
 
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {
+  .cont_heading{font-size: 20px;}
   }
   @media only screen and (max-width: 992px) {
-    .cont_heading{font-size: 20px;}
+    .cont_heading{font-size: 17px; line-height: 24px;}
+    .event_cont{padding: 20px;}
     
   }
   @media only screen and (max-width: 768px) {
@@ -120,5 +122,6 @@
   @media only screen and (max-width: 767px) {
   }
   @media only screen and (max-width: 567px) {
+    .event_parag{max-width: 100%;margin: 10px 0 !important;}
   }
   /* Responsive end  */

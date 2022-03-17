@@ -20,7 +20,7 @@ const SemonsEvent = () => {
             {eventDate.map((item) => (
               <Col
                 xl={3}
-                lg={4}
+                lg={3}
                 md={6}
                 sm={6}
                 xs={12}
