@@ -1,22 +1,42 @@
 
-
-
 .contact_bannerimg {
     width: 100%;
     height: 483px;
 }
 .contact_banner{
-    position: relative;
+    
 }
 .contact_banner_text {
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 12%;
+    right: auto;
+    bottom: auto;
 }
-.contact_info {
+.banner_title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFD2A4;
+}
+.banner_heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 15px 0 !important;
+    max-width: 400px;
+}
+/* .contact_info {
     padding: 100px 0;
-    display: flex;
-}
+} */
 .formInput {
     width: 100%;
     display: block;
@@ -32,11 +52,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-
-
-/* Black */
-
 color: #161722;
 
 }
@@ -74,13 +89,13 @@ color: #161722;
     text-transform: uppercase;
     color: #1C1D28;
 }
-/* .contact_form {
-    display: flex;
-} */
+.contact_form {
+  padding: 100px 0;
+}
 .contact_address_part {
     padding: 100px;
 }
-.add_title ,.detail_title{
+.add_title ,.detail_title {
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
@@ -100,7 +115,7 @@ color: #161722;
     text-transform: uppercase;
     color: #161722;
 }
-.contact_number ,.contact_parg{
+.contact_number ,.contact_parg {
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
@@ -123,15 +138,21 @@ color: #161722;
     
 }
 @media only screen and (max-width: 992px) {
-    .contact_info{display: inline-block;}
-    .contact_info{ padding: 50px 0;}
+    .contact_form {padding: 50px 0;}
+    
     
 }
 @media only screen and (max-width: 768px) {
+    .contact_address_part{padding: 20px;}
 }
 @media only screen and (max-width: 767px) {
-    .contact_info{ padding: 30px 0;}
-    .contact_address_part{padding: 50px;}
+    .banner_heading {font-size: 30px;
+        line-height: 42px;max-width: 280px;}
+    .contact_banner_text{top: 7%;}
+    .address {font-size: 20px;}
+    .contact_number ,.contact_parg {font-size: 20px;}
+    .contact_form {padding: 30px 0;}
+    .contact_address{padding: 7px 0;}
     
 }
 @media only screen and (max-width: 567px) {

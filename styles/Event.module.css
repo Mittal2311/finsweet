@@ -113,11 +113,13 @@
   .cont_heading{font-size: 20px;}
   }
   @media only screen and (max-width: 992px) {
-    .cont_heading{font-size: 17px; line-height: 24px;}
+    .cont_heading{font-size: 15px; line-height: 24px;}
     .event_cont{padding: 20px;}
     
   }
   @media only screen and (max-width: 768px) {
+   
+    .event_col {margin-top: 15px;}
   }
   @media only screen and (max-width: 767px) {
   }

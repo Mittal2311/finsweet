@@ -4,15 +4,10 @@
       url("../public/font/RobotoCondensed-Regular.ttf") format("truetype");
     font-weight: normal;
 }
-
-.article_section {
-    padding: 50px 0;
-    display: flex;
-}
 .semons_main {
     display: inline-block;
     width: 100%;
-    padding: 50px 0 100px;
+   padding: 100px 0;
 }
 .articleimg {
     width: 100%;
@@ -63,6 +58,7 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #161722;
+    margin: 15px 0;
 }
 .register_heading {
     font-family: 'Roboto Condensed';
@@ -79,7 +75,7 @@
     padding: 30px 33px;
     display: table;
     margin: 0 auto;
-    width: 522px;
+   /* max-width: 522px; */
 }
 .address_date {
     display: flex;
@@ -92,6 +88,7 @@
     line-height: 24px;
     color: #161722;
     max-width: 184px;
+    margin: 0px 11px !important;
 }
 .form_input {
     padding: 20px 0;
@@ -143,4 +140,29 @@ padding: 10px 0;
 }
 .list_cont:hover{
     box-shadow: inset 0 -15px 0 #ffd0a0;
+}
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .up_heading {font-size: 35px;}
+    .article_heading{font-size: 35px;}
+    
+}
+@media only screen and (max-width: 992px) {
+    .semons_main{padding: 50px 0;}
+}
+@media only screen and (max-width: 768px) {
+    .up_heading {font-size: 25px;}
+    .article_heading{font-size: 25px;line-height: 46px;}
+}
+@media only screen and (max-width: 767px) {
+    .semons_main{padding: 40px 0;}
+    .register_heading{font-size: 23px;}
+
+}
+@media only screen and (max-width: 567px) {
+    .article_heading{font-size: 17px;}
+    .address{font-size: 14px;margin: 0px 3px !important;}
+    .article_parg {font-size: 15px;}
+    
+  
 }
